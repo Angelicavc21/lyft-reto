@@ -9,7 +9,7 @@ vh100 {
 }
 
 .grad70 {
-	background: linear-gradient(rgb(134, 21, 147) 65%, rgb(203, 33, 191));
+	background: linear-gradient(rgb(134, 21, 147) 65%, rgb(225, 42, 213));	
 }
 
 .container-flex-column {
@@ -29,45 +29,39 @@ vh100 {
 .logo-little {
 	width: 20%;
 	margin-left: 150px;
-	margin-top: 50px;
+	margin-top: 400px;
 }
 
 .logo-big {
 	width: 55%;
 	margin-left: 75px;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .btn-success {
 	color: #fff;
-	background-color: transparent;
-	border-color: #010c01;
+
+	background-color: rgba(29, 25, 33, 0.515);
+	border-color: #000000;
 }
 
 .btn {
+	margin-left: 45px;
 	display: inline-block;
 	padding: 6px 12px;
-	margin-bottom: 0;
+
 	font-size: 14px;
-	font-weight: 400;
-	line-height: 1.42857143;
 	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: pointer;
-	user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
+	border: 1px solid;
 	border-radius: 4px;
 	text-decoration: none;
 }
 
 .fondo-register {
 	background-image: url('../assets/img/portada.gif');
-	background-position: center;
-	background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -140,10 +134,14 @@ transform: rotate(90deg);
 }
 
 /*Estilos de aceptación*/
-
-.check-finish {
-	left: 20px;
+.check {
+	width: 120px;
+	margin-left: 110px;
 }
+.check-finish {
+	margin-left: 50px;	
+}
+
 .grad {
-	background: linear-gradient(rgb(134, 21, 147) 65%, rgb(203, 33, 191));	
+	background: linear-gradient(rgb(134, 21, 147) 65%, rgb(225, 42, 213));	
 }
