@@ -25,6 +25,6 @@ Siguiendo para que se registre y habilitando el boton
 
 ## **Aprobación**
 Aquí aprueba su registro
-![Sin titulo](assets/img/6.PNG)
+![Sin titulo](assets/img/6.png)
 
 
